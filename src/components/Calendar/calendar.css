@@ -1,0 +1,37 @@
+.calendar {
+    background: #fff;
+    left: 0;
+    top: 43px;
+    position: absolute;
+    float: left;
+    border-radius: 6px;
+    box-shadow: 0 1px 25px rgba(0,0,0,.15);
+    width:376px;
+    z-index: 9;
+}
+.calendar .calendar .hide{ display: none;}
+.calendar .select {color: #fff!important;}
+.calendar .select:after {content: ''; background: #209DE2; width: 97%; height: 97%; position: absolute;
+    left: 0; z-index: -1; margin: 0 auto; border-radius: 3px;}
+.calendar table tbody td:hover {background: #E0E0E0; color: #000000!important; border-radius: 3px;}
+.calendar:before{content: '';  display: block; width: 0; position: absolute; left:30px; top: -8px;
+    height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-bottom: 8px solid #ffffff;}
+/* .DayPickerInput input.t_box {background: url("/assets/calendar.svg") no-repeat 95% 6px #fff; cursor: pointer; width: 144px; border: 1px solid #e0e0e0;  padding: 7px 16px; border-radius: 6px; height: 32px;} */
+/* .DayPickerInput input.t_box {height: inherit;} */
+.DayPickerInput .calendar {font-family: Source Sans Pro,sans-serif;}
+
+.cus_last_date {float: right; width: 130px; border-left: 1px solid #E0E0E0; padding: 12px; height: 229px;}
+.cus_last_date ul { list-style-type: none; margin-bottom:0;}
+.cus_last_date ul li:first-child {font-family: Source Sans Pro,sans-serif; font-weight: 600; color: #000000; font-size: 16px;}
+.cus_last_date ul li {font-family: Source Sans Pro,sans-serif; cursor: pointer; font-weight: 600; color: #545454; font-size: 14px; padding-bottom: 16px;}
+.calendar table { width: 220px; float: left; margin: 12px; line-height: 18px;}
+.calendar table tbody td {font-family: Source Sans Pro,sans-serif; position: relative; transition: all .3s ease-in-out; padding-bottom: 3px; cursor: pointer; line-height: 22px; font-weight: 600; color: #000000; font-size: 12px;}
+.calendar table thead th {font-family: Source Sans Pro,sans-serif; padding-bottom: 12px; font-weight: 600; color: #000000; font-size: 16px;}
+.blue_bg {background: rgba(228, 242, 248, 0.6);}
+.blue_bg td { text-align: center; font-family: Source Sans Pro,sans-serif; font-weight: 600; color: #545454!important; font-size: 10px;}
+.d_flex_n { display: flex;}
+.blue_bg td:hover { background: none!important;}
+.calendar table thead th span.aro_sec { float: right;}
+.calendar table thead th span.aro_sec a {padding: 0 7px; cursor: pointer;}
+li.d_flex_n img {margin-left: 7px; cursor: pointer;}
+.d_flex_n input { width: 24px; text-align: center; margin: 0 5px; border: 1px solid #E0E0E0; box-sizing: border-box; border-radius: 3px; font-weight: 600; font-size: 14px; line-height: 18px; color: #209DE2;}

@@ -1,0 +1,21 @@
+.notify {
+    position: fixed;
+    width: 100%;
+    color:#fff;
+    z-index: 1021;
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .notify.error {
+    background-color: #f55953;
+  }
+  
+  .notify.success {
+    background-color: #4dbd74;
+  }
+  
+  .notify.warning {
+    background-color: #ffc107;
+  }
